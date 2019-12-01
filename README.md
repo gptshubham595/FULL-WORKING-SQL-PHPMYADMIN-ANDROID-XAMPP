@@ -6,7 +6,7 @@
   - Copy android_login folder to XAMPP=>htdocs  WAMP=>www
   - Create database android_login =>
   
-        create table users( idint(11) primary key auto_increment, unique_idvarchar(23) not null unique, namevarchar(50) not null, emailvarchar(100) not null unique, encrypted_passwordvarchar(250) not null, otpint(6) NOT NULL, verifiedint(1) NOT NULL DEFAULT '0', created_at datetime DEFAULT NULL );
+        create table users( id int(11) primary key auto_increment, unique_id varchar(23) not null unique, name varchar(50) not null, email varchar(100) not null unique, encrypted_password varchar(250) not null, otpint(6) NOT NULL, verified int(1) NOT NULL DEFAULT '0', created_at datetime DEFAULT NULL );
     
   - Change Config.php file for username and password
       $username = "root"; 
@@ -23,7 +23,7 @@
   - Copy android_login folder to cpanel=>www
   - Create database android_login =>
   
-        create table users( idint(11) primary key auto_increment, unique_idvarchar(23) not null unique, namevarchar(50) not null, emailvarchar(100) not null unique, encrypted_passwordvarchar(250) not null, otpint(6) NOT NULL, verifiedint(1) NOT NULL DEFAULT '0', created_at datetime DEFAULT NULL );
+        create table users( id int(11) primary key auto_increment, unique_id varchar(23) not null unique, name varchar(50) not null, email varchar(100) not null unique, encrypted_password varchar(250) not null, otpint(6) NOT NULL, verified int(1) NOT NULL DEFAULT '0', created_at datetime DEFAULT NULL );
     
   - Change Config.php file for username and password
       $username = "username"; 
