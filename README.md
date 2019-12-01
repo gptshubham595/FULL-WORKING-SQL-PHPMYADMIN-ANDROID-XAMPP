@@ -3,7 +3,7 @@
 ## Setup
 ## Steps for WINDOWS ON XAMPP
   - Git clone this Repository
-  - Copy android_login folder to XAMPP=>htdocs
+  - Copy android_login folder to XAMPP=>htdocs  WAMP=>www
   - Change Config.php file for username and password
       
       $username = "root"; 
