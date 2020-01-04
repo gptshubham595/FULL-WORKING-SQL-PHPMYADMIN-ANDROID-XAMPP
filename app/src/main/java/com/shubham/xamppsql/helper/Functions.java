@@ -13,7 +13,7 @@ import android.view.inputmethod.InputMethodManager;
 public class Functions {
 
     //Main URL
-  //  private static String MAIN_URL = "http://cpanel.shubhamggps.co/shubh40_android_login/";
+  //  private static String MAIN_URL = "http://shubhamggps.co/shubh40_android_login/";
     private static String MAIN_URL = "http://10.0.2.2:8080/android_login/";
     // Login URL
     public static String LOGIN_URL = MAIN_URL + "login.php";
